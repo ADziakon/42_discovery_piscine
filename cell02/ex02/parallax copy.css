@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.black-box{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+}
+.some-text{
+    color: white;
+    text-align: center;
+}
+.first-image{
+    background-image: url("1.jpg");
+}
+.second-image{
+    background-image: url("2.jpg");
+}
+
+.wrap-parallax{
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

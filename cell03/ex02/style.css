@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calc-box{
+    margin: 50px auto;
+    width:300px;
+    border: 1px solid hsl(0, 0%, 0%);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.number {
+    width: 200px;
+    height: 30px;
+    margin: 10px
+}
+.field-option{
+    width: 200px;
+    height: 30px;
+    margin: 10px
+}
+.calculate {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+}

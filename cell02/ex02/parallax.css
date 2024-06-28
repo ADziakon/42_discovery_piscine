@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.parallax1 {
+    background-image: url('1.jpg'); 
+}
+
+.parallax2 {
+    background-image: url('2.jpg'); 
+}
+
+/* Content Section */
+.content {
+    padding: 50px;
+    text-align: center;
+}
+
+.black-block {
+    background-color: black;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-block p {
+    font-size: 20px;
+}
+
+/* Message Styling */
+.message {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}

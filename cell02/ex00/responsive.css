@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.resp_table {
+    border-collapse: collapse;
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+    min-width: 2%;
+}
+tr {
+    height: 100px;
+}
+.first_cell {
+    background-color:burlywood;
+}
+.second_cell {
+    background-color:rgb(42, 187, 139);
+}

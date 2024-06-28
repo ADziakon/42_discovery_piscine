@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.burger-menu {
+    margin-left: 20px;
+}
+.nav-menu-list {
+    list-style: none;
+    /* min-width: 200px; */
+    max-width: 150px;
+}
+.nav-menu-item {
+    padding: 7px 15px ;
+    border: 1px solid;
+}

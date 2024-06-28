@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.red-box {
+    width: 200px;
+    height: 200px;
+    /* content: ""; */
+    background-color: red;
+    border-radius: 50%;
+    border-color: brown;
+    border: 1px solid;
+    margin: 50px auto;
+}

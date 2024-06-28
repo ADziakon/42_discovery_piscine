@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color:rgb(112, 79, 79)
+}
+.burger-menu {
+    margin-left: 50px;
+    position: relative;
+    display: inline-block;
+}
+.burger-menu-btn {
+    background-color: #cc76cf;
+    color: rgb(255, 255, 255);
+    padding: 7px 15px;
+    font-size: 16px;
+    width:150px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px #b40fb9 solid;
+}
+
+.nav-menu{
+    background-color: antiquewhite;
+    width: 150px;
+    display: none;
+    position: absolute;
+    /* z-index: 1; */
+    border-radius: 8px;
+}
+.nav-menu-list {
+    list-style: none;
+    /* min-width: 200px; */
+    width: 150px;
+    
+}
+.nav-menu-item {
+    padding: 7px 15px ;
+    /* border: 1px solid; */
+    cursor: pointer;
+    border-radius: 8px;
+}
+.image {
+    float: right;
+}
+.burger-menu:hover .nav-menu{
+    display: block;
+}
+.nav-menu-item:hover {
+    background-color: bisque;
+}
